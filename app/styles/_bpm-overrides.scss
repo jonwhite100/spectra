@@ -1,0 +1,385 @@
+/*
+brand-primary: 					#a54078
+darken  brand-primary:			#742d54
+*/
+
+
+/*One Page
+------------------------------------*/
+.one-page {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.one-page h1,
+.one-page h2 {
+	color: #fff;
+	font-size: 23px;
+	line-height: 28px;
+	text-shadow: none;
+	margin-bottom: 25px;
+}
+
+.one-page h3.heading-sm {
+	font-size: 19px;
+}
+
+.one-page p {
+	color: #fff;
+}
+
+.one-grey hr {
+	border-color: #bbb;
+}
+
+.one-page .one-default p,
+.one-page .one-default h1,
+.one-page .one-default h2,
+.one-page .one-grey p,
+.one-page .one-grey h1,
+.one-page .one-grey h2 {
+	color: #555;
+}
+
+.one-page .one-page-inner {
+	padding: 30px 0;
+	min-height: 300px;
+}
+
+.one-page .one-page-btn {
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 200;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.one-page .btn-u {
+	margin-bottom: 15px;
+}
+
+.one-page .one-default {
+	background: #fff;
+}
+.one-page .one-grey {
+	background: #eee;
+}
+.one-page .one-blue {
+	background: #3498db;
+}
+.one-page .one-red {
+	background: #e74c3c;
+}
+.one-page .one-orange {
+	background: #e67e22;
+}
+.one-page .one-green {
+	background: #2ecc71;
+}
+
+/* headings */
+.headline {
+	display: block;
+	margin: 10px 0 25px 0;
+	border-bottom: 1px dotted #e4e9f0;
+}
+
+.headline h2 {
+	font-size: 22px;
+}
+
+.headline h2,
+.headline h3,
+.headline h4 {
+	margin: 0 0 -2px 0;
+	padding-bottom: 5px;
+	display: inline-block;
+	border-bottom: 2px solid #a54078;
+}
+
+
+.parallax-content h1,
+.upsell h1 {
+	color: #595959;
+	position: relative;
+	margin-bottom: 30px;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+
+.parallax-content h1:after,
+.upsell h1:after {
+	left: 50%;
+	width: 100px;
+	height: 2px;
+	content: " ";
+	bottom: -10px;
+	background: #595959;
+	position: absolute;
+	margin-left:-50px;
+}
+
+.service-block h2 {
+	font-size:18px;
+	line-height:24px;
+	color:#595959;
+}
+
+/* buttons */
+.btn {
+	box-shadow: none;
+	border-radius: 0;
+}
+.btn-u {
+	border: 0;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 6px 13px;
+	position: relative;
+	background: #a54078;
+	white-space: nowrap;
+	display: inline-block;
+	text-decoration: none;
+}
+.btn-u:hover {
+	color: #fff;
+	background: #a54078;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn-u.btn-block {
+	text-align: center;
+}
+
+.btn-u-sm,
+a.btn-u-sm {
+	padding: 3px 12px;
+}
+
+.btn-u-md,
+a.btn-u-md {
+	padding: 10px 20px;
+}
+
+.btn-u-lg,
+a.btn-u-lg {
+	font-size: 18px;
+	padding: 10px 25px;
+}
+
+.btn-u-xs,
+a.btn-u-xs {
+	font-size: 12px;
+	padding: 2px 12px;
+	line-height: 18px;
+}
+
+.btn-u:hover,
+.btn-u:focus,
+.btn-u:active,
+.btn-u.active,
+.open .dropdown-toggle.btn-u {
+	background: #742d54;
+}
+.btn-u-split.dropdown-toggle {
+	border-left: solid 1px #742d54;
+}
+
+/* images */
+.img-main {
+	width:100%;
+	margin-top:20px;
+}
+
+/* tag blocks */
+.tag-box  {
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 30px;
+	border: solid 2px #eee;
+}
+
+.tag-box p {
+	margin-bottom: 0;
+}
+
+.tag-box hr {
+	margin:10px 0;
+}
+
+/* JON's stuff
+*********************************************************** */
+
+/* top right */
+.bpm-header .telephone-number {
+	line-height:54px;
+	vertical-align:top;
+	padding-top:20px;
+	font-size:20px;
+	transition: all 0.4s cubic-bezier(.7, 1, .7, 1);
+}
+
+.header-fixed-shrink .telephone-number {
+	padding-top:10px;
+}
+
+/* mastrslider */
+.ms-slide .ms-layer,
+.ms-fixed-layers .ms-layer,
+.ms-overlay-layers .ms-layer {
+		background-color:rgba(255, 255, 255, 0.7);
+		padding:10px 40px;
+}
+
+/* parralax quote on home page */
+.parallax-content {
+  color: #fff;
+  padding: 50px 0;
+  position: relative;
+  text-align: center;
+  background: url(../images/bg-stone.jpg) 50% 0 repeat fixed;
+  background-size :100% auto;
+}
+
+.parallax-content:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: rgba(255,255,255,0.2);
+}
+
+.parallax-content:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+//  background: url(../images/patterns/gridtile.png) repeat;
+}
+
+/* service blocks within the parallax content */
+.service-block {
+	background-color:#fff;
+	border:1px solid #595959;
+	padding: 30px 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	min-height:125px;
+}
+
+.service-block:hover {
+	box-shadow: 0 0 8px #eee;
+}
+
+/* up sell section on the home page */
+.upsell {
+	padding-top:50px;
+	padding-bottom:80px;
+}
+
+.up {
+	min-height:260px;
+}
+
+.up-speccam,
+.up-mining,
+.up-petroleum,
+.up-contact {
+
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+.up-speccam {
+	background-image:url('../images/img-speccam.jpg');
+}
+
+.up-mining {
+	background-image:url('../images/img-mining.jpg');
+}
+
+.up-petroleum {
+	background-image:url('../images/img-oilrig.jpg');
+}
+
+.up-contact {
+	background-image:url('../images/img-oil-workers.jpg');
+}
+
+.up-content {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	display:block;
+	background-color:rgba(0,0,0,0.8);
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.up-content h3,
+.up-content p {
+	color:#fff;
+	text-align:center;
+	margin-bottom:0;
+}
+
+.up-content p {
+	padding-bottom:5px;
+	text-transform:uppercase;
+	font-size:11px;
+}
+
+.up-content a {
+	color:#fff;
+}
+
+/* none home page titles */
+.breadcrumbs {
+  overflow: hidden;
+  padding: 10px 0 6px;
+  border-top: solid 2px #eee;
+  border-bottom: solid 1px #eee;
+  background: url(../images/patterns/breadcrumbs.png) repeat;
+}
+
+
+/* back to top icon */
+#topcontrol {
+  color: #595959;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  position: relative;
+  right: 14px !important;
+  bottom: 11px !important;
+  border-radius: 3px !important;
+}
+
+#topcontrol:after {
+  top: -2px;
+  left: 8.5px;
+  content: "\f106";
+  position: absolute;
+  text-align: center;
+  font-family: FontAwesome;
+}
+
+#topcontrol:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.50);
+  transition: all 0.3s ease-in-out;
+}

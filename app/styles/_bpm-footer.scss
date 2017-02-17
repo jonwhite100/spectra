@@ -1,0 +1,43 @@
+/* Footer
+------------------------------------*/
+/*Footer Copyright*/
+.bpm-footer {
+	padding: 15px 0;
+	background: #a54078;
+}
+
+/*Terms Menu*/
+.bpm-footer .list-inline {
+	margin: 7px 0 0;
+}
+
+.bpm-footer .list-inline li {
+	color: #fff;
+	font-size: 13px;
+	line-height: 10px;
+	margin-right: 2px;
+	border-color: #fff;
+	padding-left: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #fff;
+}
+
+.bpm-footer .list-inline li:first-child {
+	border-left: none;
+	padding: 0 7px 0 0;
+}
+
+.bpm-footer .list-inline li a {
+	color: #fff;
+}
+
+.bpm-footer .list-inline li a:hover {
+	color: #fff;
+}
+
+@media (max-width: 992px) {
+	.bpm-footer .list-inline {
+		text-align: center;
+		float: none !important;
+	}
+}

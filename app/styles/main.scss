@@ -1,0 +1,92 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// import css files
+@import "_app.scss";
+@import "_blocks.scss";
+@import "_bpm-footer.scss";
+@import "_bpm-header.scss";
+@import "_bpm-overrides.scss";
+
+// plugins
+@import "_masterslider.scss";
+@import "_masterslider-style.scss";
+
+
+
+// some styling
+* {
+	border-radius: 0;
+}
+
+body {
+ color: #333;
+ font-size: 14px;
+ line-height: 1.45;
+}
+
+body.header-fixed-space {
+  padding-top: 94px;
+}
+
+body.header-fixed-space-v2 {
+	padding-top: 135px;
+}
+
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
+}
+
+p,
+li,
+li a,
+label {
+ color: #555;
+}
+
+a {
+ color: #a54078;
+ text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+}
+
+a:focus {
+text-decoration: none;
+}
+a:hover {
+ color: #a54078;
+ text-decoration: underline;
+}
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+	background: #fff;
+}
+
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../images/patterns/15.png) repeat;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
+}
